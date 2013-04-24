@@ -1,0 +1,5 @@
+img.pp-gallery-placeholder,img.pp-grid-placeholder{display:block !important;margin:10px auto;position:relative;cursor:pointer !important;}
+img.pp-insert-all{margin:15px auto;float:none !important;display:block !important;}
+br.p4br{clear:both;display:block;height:20px;}
+img.has-caption{margin-bottom:5px;}
+.pp-caption{text-align:center;font-style:italic;margin-top:0;}

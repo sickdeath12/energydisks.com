@@ -1,0 +1,47 @@
+.wrap, #wpwrap .error, .updated,
+.hidden-msg {
+	display:none;
+}
+.wrap-post-registration {
+	display:block;
+}
+.wrap-post-registration .icon32 {
+	background: url(http://prophoto.s3.amazonaws.com/img/downloading-icons-sprite.png) no-repeat -45px -1px !important;
+}
+.wrap-post-registration p {
+	font-size:1.3em;
+}
+.welcome-wrap {
+	max-width:700px;
+	display:block;
+}
+.welcome-wrap h4 {
+	margin: 1em 0;
+}
+label {
+	display:block;
+	margin-top:0.5em;
+}
+#bluehost-wrap {
+	margin:1em 0 0 0;
+}
+#bluehost-more-info {
+	font-style: italic;
+	margin-left: 1.5em;
+	margin-bottom:2em;
+	width:500px;
+}
+.has-error .hidden-msg {
+	display:inline;
+	color:red;
+}
+.has-error input {
+	border-color:red !important;
+}
+.welcome-error {
+	background-color: #FFEBE8;
+	border:1px solid #CC0000;
+}
+.button-secondary {
+	margin-top:10px;
+}

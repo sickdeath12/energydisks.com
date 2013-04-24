@@ -1,0 +1,143 @@
+/* Additional styles for the popups */
+body#file_reset_form {
+	background:#f99;
+}
+html {
+	overflow:hidden; /* otherwise: scrollbars */
+}
+.media-upload-size,
+#plupload-upload-ui {
+	display:none;
+}
+html body {
+	padding:1em !important;
+	min-width:200px !important;
+}
+body#file_upload_form,
+body#design_zip_upload {
+	background:#b6cdec !important;
+}
+.media-upload-form {
+	margin-top:0;
+}
+
+h3 {
+	display:none;
+	margin-top:.3em !important;
+}
+
+.upload-html-bypass {
+	display:none;
+}
+#html-upload-ui {
+	display:block !important;
+}
+#media-upload-size {
+	display:none;
+}
+
+body#edit_design_form textarea,
+body#copy_design_form textarea {
+	width:410px;
+}
+body#new_design_from_starter_form textarea {
+	width:95%;
+}
+body#copy_design_form form {
+	margin-top:20px;
+}
+
+body#new_design_form {
+	padding: 0 20px 20px 20px;
+	height:auto;
+}
+img#the-template {
+	margin-left:0;
+}
+#advanced {
+	display:none;
+}
+#advanced div {
+	margin-left:15px;
+}
+#show {
+	cursor:pointer;
+	font-size:10px;
+	color:#333;
+	text-transform:uppercase;
+}
+p.input-wrap {
+	padding:0;
+	line-height:1.1em;
+	margin:.75em 0;
+}
+p.input-wrap input {
+	margin-right:4px;
+}
+p.intro {
+	font-size:1.1em;
+	font-family: Georgia, Times, serif;
+	margin-bottom:20px;
+}
+div.option-wrap {
+	margin-bottom:0px;
+}
+div.option-wrap input {
+	margin-right:5px;
+}
+img {
+	display:block;
+	margin: 5px 0 15px 18px;
+}
+.starter-design {
+	float:left;
+	min-width:140px;
+	margin:0 15px 0 0;
+	padding-bottom:0px;
+}
+.starter-design label {
+	font-size:.9em;
+}
+#starter-design-wrap {
+	margin-top:10px;
+}
+.starter-design img {
+	width:120px;
+}
+.max-upload-size, .big-file-warning {
+	display:none;
+}
+
+.sc:after { /* sc the float */
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+* html .sc { /* for IE 5,6 */
+	height: 1%;
+} 
+*:first-child+html .sc { /* for IE7 */
+	min-height: 1px;
+}
+
+.pp-form-error-msg-inline,
+.pp-form-error-msg-block {
+	display:none;
+	color:red;
+}
+.pp-form-has-error .pp-form-error-msg-block {
+	display:block;
+}
+.pp-form-has-error .pp-form-error-msg-inline {
+	display:inline;
+}
+.pp-form-has-error input {
+	border:1px solid red !important;
+}
+
+/* wp 3.3+ upload */
+div.drag-drop {
+	display:none;
+}

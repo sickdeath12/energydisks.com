@@ -1,0 +1,555 @@
+.pp-admin-dropdown-wrap {
+	position:relative;
+	cursor:pointer;
+	margin:14px 0 0 8px;
+	float:left;
+	border-top-width:0;
+	z-index:99;
+}
+.pp-admin-dropdown-wrap:hover li {
+	display:block;
+	border-top:1px solid #333;
+}
+.pp-admin-dropdown {
+	white-space:nowrap;
+	position:absolute;
+	box-shadow:2px 2px 3px #bbb;
+	border-radius:4px;
+	margin:0;
+}
+.pp-admin-dropdown a {
+	color:#ccc;
+	text-decoration:none;
+	display:block;
+	padding:6px 13px 6px 35px !important;
+	line-height:1em;
+}
+.pp-admin-dropdown li {
+	position:relative;
+	background-color:#292929;
+	line-height:1em;
+	padding:0;
+	margin:0;
+	font-family:Georgia,Times,serif;
+	font-size:13px;
+	display:none;
+}
+.pp-admin-dropdown li.current {
+	background-image:none;
+	color:#eee;
+	border-top-width:0;
+	border-radius:4px;
+	padding:3px 30px 6px 10px;
+	font-size:23px;
+	display:block;
+	background:#2a2a2a url(http://prophoto.s3.amazonaws.com/img/short-black-gradient.jpg) repeat-x bottom center;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.37, rgb(42,42,42)),
+	    color-stop(0.56, rgb(68,68,68)),
+	    color-stop(0.80, rgb(88,88,88))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(42,42,42) 37%,
+	    rgb(68,68,68) 56%,
+	    rgb(88,88,88) 80%
+	);
+}
+.pp-admin-dropdown-wrap:hover li.current {
+	-moz-border-radius-bottomright:0;
+	-moz-border-radius-bottomleft:0;
+	-webkit-border-bottom-right-radius:0;
+	-webkit-border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	border-bottom-left-radius:0;
+}
+.pp-admin-dropdown li:hover {
+	background-color:#353535;
+}
+.pp-admin-dropdown li:hover a {
+	color:#fff;
+}
+.pp-admin-dropdown li.current .arrow {
+	background:url(../../../../../wp-admin/images/arrows.png) -3px -3px;
+	position:absolute;
+	display:block;
+	width:9px;
+	height:9px;
+	top:11px;
+	right:11px;
+}
+.pp-admin-dropdown-wrap:hover li.current .arrow {
+	background-position:-3px -37px;
+}
+.pp-admin-dropdown li:last-child {
+	padding-bottom:4px;
+	-moz-border-radius-bottomright:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-right-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-bottom-left-radius:4px;
+}
+.pp-admin-dropdown li .icon {
+	position:absolute;
+	display:block;
+	width:18px;
+	height:16px;
+	top:3px;
+	left:9px;
+	background-image:url(http://prophoto.s3.amazonaws.com/img/customize-icons-small-sprite.png);
+}
+
+body#export_design {
+	min-width:50px;
+}
+.gray-gradient-button {
+	border:1px solid #888;
+	border-radius:6px;
+	box-shadow:2px 2px 2px #ddd;
+	text-shadow:1px 1px #fff;
+	text-decoration:none;
+	background:#f9f9f9 url(http://prophoto.s3.amazonaws.com/img/customize-grid-gradient.jpg) repeat-x bottom center;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.34, rgb(230,230,230)),
+	    color-stop(0.60, rgb(234,234,234)),
+	    color-stop(0.96, rgb(249,249,249))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(230,230,230) 34%,
+	    rgb(234,234,234) 60%,
+	    rgb(249,249,249) 96%
+	);
+}
+.black-glass-gradient-bg {
+	background-color:rgb(68,68,68);
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.37, rgb(42,42,42)),
+	    color-stop(0.56, rgb(68,68,68)),
+	    color-stop(0.80, rgb(88,88,88))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(42,42,42) 37%,
+	    rgb(68,68,68) 56%,
+	    rgb(88,88,88) 80%
+	);
+}
+
+#prophoto-page-title {
+	color:#222;
+	font-size:31px;
+	padding: 14px 0 3px 0;
+	text-transform: capitalize;
+	padding: 14px 0 3px 0;
+	position: relative;
+	line-height:29px;
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	margin: 0;
+	text-shadow: rgba(255, 255, 255, 1) 0 1px 0;
+}
+.pp-iframe-title {
+	position:relative;
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:21px;
+	font-weight:400;
+	padding-left:34px;
+	line-height:23px;
+}
+.pp-iframe-title .icon {
+	display:block;
+	position:absolute;
+	width:25px;
+	height:25px;
+	top:0px;
+	left:3px;
+	background:url(http://prophoto.s3.amazonaws.com/img/customize-icons-medium-sprite.png) no-repeat 0 0;
+}
+.pp-iframe-title-grids .icon {
+	background-position:-75px 0;
+}
+.pp-iframe-title-menus .icon {
+	background-position:0 0;
+}
+.pp-iframe-title-galleries .icon {
+	background-position:-35px 0;
+}
+.gmail-notice,
+.gmail-notice-show,
+.gmail-warn,
+.gmail-warn-show {
+	clear:both;
+	margin:0.5em 0;
+	display:none;
+	text-align:center;
+	font-size:11px !important;
+	font-style:normal !important;
+	font-family:Arial,sans-serif !important;
+}
+.gmail-notice-show,
+.gmail-warn-show {
+	display:block;
+}
+.gmail-notice span,
+.gmail-notice-show span,
+.gmail-warn span,
+.gmail-warn-show span {
+	color:#444;
+	background:#FAF884;
+	padding:1px 10px;
+}
+.gmail-warn span,
+.gmail-warn-show span {
+	background:#E08B8B;
+	color:#000;
+}
+.js-info {
+	display:none;
+}
+
+/* jQuery UI tabs */
+#tabs {
+	font-size:11px !important;
+	margin-bottom:15px;
+}
+.ui-widget-content {
+	border-color:#dedede !important;
+}
+.ui-corner-all {
+	-moz-border-radius:0 !important;
+}
+.ui-widget-header {
+	background-image:none !important;
+	background-color:#BBB;
+}
+.ui-tabs-panel {
+	padding-top:1.1em !important;
+	padding-bottom:1.4em !important;
+}
+
+
+#siteurl-change-warn p {
+	color:red;
+	max-width: 670px;
+	margin-bottom:0;
+}
+.pp-remote-notice {
+	font-size:11px;
+	background:#f5f5f5;
+	border:1px solid #ddd;
+	color:#777;
+	padding:4px 8px;
+	max-width:760px;
+	margin-bottom:11px;
+	margin-top:8px;
+}
+.pp-remote-notice-normal {
+	background-color:#FFFFE0;
+	border-color:#E6DB55;
+	color:#333;
+}
+.pp-remote-notice-announcement,
+.wrap .pp-admin-msg.notify {
+	background:#e7f8ea;
+	border:1px solid #108718;
+	color:#333;
+}
+.pp-remote-notice-warning {
+	background-color:#FFEBE8;
+	border-color:#ff6161;
+	color:#333;
+}
+.pp-remote-notice-problem {
+	background-color:#FFEBE8;
+	border-color:#CC0000;
+	color:#CC0000;
+	font-size:12px;
+	font-weight:700;
+}
+.pp-remote-notice-oh-shit {
+	font-size:14px;
+	font-weight:700;
+	color:#CC0000;
+	border-color:#CC0000;
+	border-width:3px;
+	min-height:76px;
+	max-width:676px;
+	padding-left:88px;
+	background:#FFEBE8 url(http://prophoto.s3.amazonaws.com/img/radioactive.png) no-repeat top left !important;
+}
+.pp-remote-notice-problem strong,
+.pp-remote-notice-oh-shit strong {
+	text-decoration:underline;
+}
+.pp-remote-notice-oh-shit strong {
+	text-transform:uppercase;
+}
+.pp-admin-msg {
+	padding:7px 10px !important;
+	font-size:12px;
+	display:none;
+}
+.wrap .pp-admin-msg {
+	display:block;
+}
+body #update-nag {
+	background-color:#FFEBE8;
+	border-color:#ff6161;
+	color:#333;
+	border-width:1px;
+	border-style:solid;
+	margin: 15px 10px 0 0;
+}
+#ftp-advise {
+	background:#e7f8ea;
+	border:1px solid #ddd;
+	padding:8px;
+	width:530px;
+	margin-bottom:8px;
+	color:#333;
+}
+.ppIssue {
+	display:none;
+}
+.wrap .ppIssue {
+	display:block;
+}
+
+
+#debug-wrap {
+	display:none;
+}
+:focus{
+	outline:0 !important;
+}
+* html #noie6 {
+	display:block;
+}
+.toplevel_page_pp-customize #screen-meta {
+	display:none;
+}
+#tTips {
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0 0 8px 0;
+	background-image: url(http://prophoto.s3.amazonaws.com/img/tail.gif);
+	background-repeat: no-repeat;
+	background-position: 25px bottom;
+	background-color: transparent;
+}
+#tTips p#tTips_inside {
+	margin: 0;
+	padding: 6px 9px;
+	text-align: center;
+	-moz-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+#tTips.black  p#tTips_inside {
+	background-color:#000 !important;
+	color:#fff !important;
+	border:1px solid #000;
+}
+#tTips.black  {
+	background-image: url(http://prophoto.s3.amazonaws.com/img/black-tail.png);
+}
+.sc:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+*:first-child+html .sc { /* for IE7 */
+	min-height: 1px;
+}
+
+
+/* dim the lights during auto-upgrade */
+.pp-admin-msg.attempting_auto_upgrade {
+	max-width:756px;
+	padding-left:48px !important;
+	background:#e7f8ea url(http://prophoto.s3.amazonaws.com/img/ajaxLoadingSpinner.gif) no-repeat 7px 9px !important;
+}
+.attempting-pp-auto-upgrade .wrap div.attempting_auto_upgrade {
+	display:block;
+}
+.attempting-pp-auto-upgrade #adminmenuback,
+.attempting-pp-auto-upgrade #adminmenuwrap,
+.attempting-pp-auto-upgrade #wphead,
+.attempting-pp-auto-upgrade #wpbody-content div div,
+.attempting-pp-auto-upgrade ul,
+.attempting-pp-auto-upgrade h1,
+.attempting-pp-auto-upgrade h2,
+.attempting-pp-auto-upgrade h3,
+.attempting-pp-auto-upgrade h4,
+.attempting-pp-auto-upgrade table,
+.attempting-pp-auto-upgrade #footer,
+.attempting-pp-auto-upgrade p,
+.attempting-pp-auto-upgrade .modal-video {
+	opacity:0.45;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=45)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=45);
+}
+.attempting-pp-auto-upgrade * {
+	cursor:pointer !important;
+}
+.attempting-pp-auto-upgrade #flash-upload-ui,
+.attempting-pp-auto-upgrade .error,
+.attempting-pp-auto-upgrade .wp-pointer {
+	display:none !important;
+}
+.attempting-pp-auto-upgrade #wpbody-content div div div,
+.attempting-pp-auto-upgrade #wpbody-content div div.attempting_auto_upgrade {
+	opacity:1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+
+/* @group - Modal / Colorbox */
+
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	z-index:9999;
+}
+
+#cboxOverlay {
+	background: #000;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+
+#cboxMiddleLeft,
+#cboxBottomLeft {
+	clear: left;
+}
+
+#cboxContent {
+	background: #333;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 30px 20px 20px 20px;
+	position: relative;
+}
+
+#cboxLoadedContent {
+	overflow: auto;
+}
+
+.cbox-content-wrap {
+	width: 600px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 1.5em;
+	padding-bottom: 20px;
+}
+
+.cbox-content-title {
+	font-size: 150%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.cbox-content-wrap p {
+	margin-bottom: 14px;
+}
+
+#cboxLoadingOverlay,
+#cboxLoadingGraphic {
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow {
+	cursor: pointer;
+}
+
+#cboxClose {
+	background: url(http://prophoto.s3.amazonaws.com/img/modal-close.png) no-repeat 0 0;
+	height: 12px;
+	position: absolute;
+	right: 10px;
+	text-indent: -999em;
+	top: 10px;
+	width: 13px;
+}
+
+.cboxPhoto {
+	border: 0;
+	display: block;
+	float: left;
+	margin: auto;
+}
+
+.cboxIframe {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0;
+}
+
+.modal-content {
+	color: #999;
+}
+
+.modal-content .video {
+	margin-bottom: 10px;
+}
+
+.modal-content a {
+	color: #999;
+	text-decoration: underline;
+}
+
+.modal-content a:focus,
+.modal-content a:hover {
+	color: #777;
+}
+#cboxLoadedContent iframe {
+	border-width:0;
+}
+
+/* @end */
+
+.modal-video-large {
+	float:right;
+	display:block;
+	width:28px;
+	height:28px;
+	text-indent:-9999em;
+	background: url(http://prophoto.s3.amazonaws.com/img/watch_video_large.png) no-repeat 0 0;
+}
+body.index-php .modal-video {
+	position:absolute;
+	top:12px;
+	right:25px;
+}
+body.index-php #screen-meta-links {
+	margin-right:65px;
+}

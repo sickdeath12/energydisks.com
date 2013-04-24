@@ -1,0 +1,186 @@
+form#change_settings textarea {
+	display:none;
+	width:450px;
+}
+form#change_settings label {
+	margin:0 2px 0 6px;
+}
+
+form#edit-widget label {
+	display:block;
+	margin-top:15px;
+}
+form#edit-widget textarea {
+	width:700px;
+}
+
+#notice, #warn {
+	font-size:14px;
+	color:#222;
+	padding:8px 12px;
+	background-color:#BDF2C1;
+	border: 1px solid #222;
+	lineheight:1em;
+}
+#warn {
+	background-color: #F2BDBD;
+}
+.warn {
+	color:red;
+}
+#admin-links a {
+	margin-right:10px;
+}
+body {
+	margin:15px;
+}
+div.center { /* this is for phpinfo() div */
+	clear:both;
+}
+pre, .options-data, .image-data, h2 {
+	font-family:Courier, monospace;
+	font-size:12px;
+	color:#555;
+	line-height:1.2em;
+}
+span {
+	color: #000;
+}
+.options-data {
+	display:none;
+	margin:0;
+	clear:both;
+}
+#check_settings {
+	float:left;
+}
+#change_settings {
+	float:right;
+	margin:15px;
+}
+#setting_updated {
+	text-align:center;
+	font-family:Times, serif !important;
+	font-size:14px;
+}
+#setting_updated{
+	max-width:440px;
+	padding:5px 10px;
+	background:#ccebcc;
+	color:#444;
+	border: 1px solid #74b474;
+	-moz-border-radius:3px;
+}
+#setting_updated em, #setting_updated b {
+	padding:0 2px;
+	font-style:normal;
+	font-family:monospace;
+	font-size:12px;
+}
+#setting_updated em {
+	color:blue !important;
+}
+#setting_updated b {
+	color:green !important;
+}
+.newline {
+	font-weight:bold;
+	color:blue;
+}
+.default em {
+	color:green;
+}
+img {
+	max-height:100px;
+	outline:0;
+	border:0;
+	margin-top:5px;
+}
+a.img {
+}
+div.image {
+	margin-bottom:42px;
+}
+.image-data {
+	clear:both;
+	padding-top:30px;
+}
+h2 {
+	font-size:20px;
+	color:#000 !important;
+}
+form#support_actions {
+	padding-top:20px;
+}
+form#support_actions input {
+	margin-right:4px;
+}
+textarea.edit-widget {
+	display:inline;
+	margin-bottom:0;
+}
+h1 {
+	float:right;
+	color:#999;
+	size:16px;
+	margin:0 20px 0 0;
+	font-family:Courier, monospace;
+	text-transform:uppercase;
+}
+#options-list {
+	clear:left;
+	min-height:50px;
+}
+#jsons, tt {
+	display:none;
+}
+.widget-column-header {
+	font-weight:700;
+}
+#blog_address, #wp_address {
+	margin-right:15px;
+}
+form.compact {
+	margin:40px 0 60px 0;
+}
+form.compact label, form.compact input {
+	margin-right:6px;
+}
+form.widget-edit, form.widget-edit input {
+	display:inline;
+	margin:0 0 0 3px;
+	padding:0;
+}
+#ns-loading {
+	color:#888;
+}
+#ns-loading.loaded {
+	color:#000;
+}
+.inline-form-btn {
+	display:inline;
+}
+.inline-form-btn input {
+	font-size:10px;
+	text-decoration:underline;
+	background-color:#fff;
+	color:blue;
+	border-width:0;
+	cursor:pointer;
+	padding:0;
+}
+#update-info {
+	margin:0 0 25px;
+}
+#update-info pre {
+	margin-bottom:25px;
+}
+#update-info h3 {
+	margin:0;
+	line-height:1em;
+	color:#999;
+	size:16px;
+	text-transform:uppercase;
+	margin:0 20px 0 0;
+	font-family:Courier, monospace;
+}

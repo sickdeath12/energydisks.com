@@ -1,0 +1,27 @@
+Sat, 14 Apr 2012 00:24:32 +0000  Array
+(
+    [message] => Unknown $id '1334362717' passed to ppGallery::load()
+    [level] => tech
+    [stackTrace] => Array
+        (
+            [0] => {pp}/classes/gallery.php:45 ppGallery::readStorage('1334362717');
+            [1] => {pp}/classes/contentFilter.php:234 ppGallery::load('1334362717');
+            [2] =>  ppContentFilter::lightboxMarkup('Array');
+            [3] => {pp}/classes/contentFilter.php:202 preg_replace_callback('/<img[^>]*lightbox-([0-9]+)[^>]*\/>/i','ppContentFilter::lightboxMarkup','<hr />
+<section>
+<di~TRUNCATED');
+            [4] => {pp}/classes/post.php:189 ppContentFilter::galleryMarkup('<hr />
+<section>
+<di~TRUNCATED');
+            [5] => {pp}/classes/NrPost.php:264 ppPost->partiallyFilteredContent();
+            [6] => {pp}/classes/NrPost.php:341 NrPost->firstImgTag();
+            [7] => {pp}/classes/facebook.php:47 NrPost->excerptImgSrc();
+            [8] => {pp}/index.php:20 ppFacebook::meta('ppQuery','ppPost','Location: Base of spine	Color: Red	Element: Earth	Purpose: Foundation and survival	Identity: Physical	Drive: Self-preservation	Develops: 2nd trimester to6&#8230;');
+            [9] => {wp}/wp-includes/template-loader.php:43 include('{pp}/index.php');
+            [10] => {wp}/wp-blog-header.php:16 require_once('{wp}/wp-includes/template-loader.php');
+            [11] => {wp}/index.php:17 require('{wp}/wp-blog-header.php');
+        )
+
+)
+
+

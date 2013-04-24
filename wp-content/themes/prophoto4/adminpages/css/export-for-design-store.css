@@ -1,0 +1,62 @@
+html {
+	overflow:auto;
+}
+html body {
+	font-family:Georgia,Times,serif;
+	padding:1em 2em !important;
+	height:auto;
+}
+h1 {
+	margin-bottom:30px;
+}
+h3 {
+	margin-top:40px !important;
+	display:block;
+}
+h3.widgettitle {
+	margin-top:0 !important;
+}
+li.widget {
+	font-family:Arial,sans-serif;
+	line-height:1.25em;
+	display:inline-block;
+	list-style:none;
+	padding:1em 1.5em;
+	margin-right:100px;
+	font-size:0.9em;
+	max-width:700px;
+}
+.nr-checkbox {
+	height:20px;
+	width:20px;
+	float:left;
+}
+.widget-wrap {
+	margin-left:25px;
+}
+.widget-wrap .radio-btns-wrap {
+	margin-bottom:12px;
+}
+.radio-btns-wrap label {
+	padding-left:4px;
+}
+p.explain {
+	font-size:15px;
+	line-height:1.35em;
+	max-width:750px;
+}
+div.error {
+	margin-left:0;
+}
+#design_thumb-form {
+	margin-bottom:40px;
+}
+.media-title,
+#html-upload,
+#async-upload-wrap a,
+#design_thumb-form p {
+	display:none;
+}
+#design_thumb-form p#async-upload-wrap {
+	display:block;
+}

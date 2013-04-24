@@ -1,0 +1,44 @@
+.farbtastic {
+	position: relative;
+}
+.farbtastic * {
+	position: absolute;
+	cursor: crosshair;
+}
+.farbtastic, .farbtastic .wheel {
+	width: 195px;
+	height: 195px;
+}
+.farbtastic .color, .farbtastic .overlay {
+	top: 47px;
+	left: 47px;
+	width: 101px;
+	height: 101px;
+}
+.farbtastic .wheel {
+	background: url(http://prophoto.s3.amazonaws.com/img/wheel.png) no-repeat;
+	width: 195px;
+	height: 195px;
+}
+.farbtastic .overlay {
+	background: url(http://prophoto.s3.amazonaws.com/img/mask.png) no-repeat;
+}
+.farbtastic .marker {
+	width: 17px;
+	height: 17px;
+	margin: -8px 0 0 -8px;
+	overflow: hidden;
+	background: url(http://prophoto.s3.amazonaws.com/img/marker.png) no-repeat;
+}
+.colorpicker-wrap {
+	position: absolute;
+	display: none;
+	background: #fff;
+	border: 3px solid #ccc;
+	padding: 3px;
+}
+.colorpicker-swatch {
+	padding: 3px 10px;
+	cursor: pointer;
+	background: transparent url(http://prophoto.s3.amazonaws.com/img/color_wheel.png) top left no-repeat;
+}

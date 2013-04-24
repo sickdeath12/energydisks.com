@@ -1,0 +1,22 @@
+Fri, 11 May 2012 04:43:02 +0000  Array
+(
+    [message] => Unknown $id '0' passed to ppGallery::load()
+    [level] => tech
+    [stackTrace] => Array
+        (
+            [0] => {pp}/classes/gallery.php:45 ppGallery::readStorage('0');
+            [1] => {pp}/classes/ready.php:390 ppGallery::load('0');
+            [2] => {pp}/classes/ready.php:150 ppReady::interceptRequestCommands();
+            [3] => {pp}/classes/ready.php:52 ppReady::everywhere();
+            [4] =>  ppReady::ppLoaded('');
+            [5] => {wp}/wp-includes/plugin.php:405 call_user_func_array('ppReady::ppLoaded','Array');
+            [6] => {wp}/wp-settings.php:289 do_action('after_setup_theme');
+            [7] => {wp}/wp-config.php:90 require_once('{wp}/wp-settings.php');
+            [8] => {wp}/wp-load.php:29 require_once('{wp}/wp-config.php');
+            [9] => {wp}/wp-blog-header.php:12 require_once('{wp}/wp-load.php');
+            [10] => {wp}/index.php:17 require('{wp}/wp-blog-header.php');
+        )
+
+)
+
+

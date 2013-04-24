@@ -1,0 +1,232 @@
+.widget-liquid-right .widgets-holder-wrap:nth-child(1),
+.widget-liquid-right .widgets-holder-wrap:nth-child(6),
+.widget-liquid-right .widgets-holder-wrap:nth-child(7),
+.widget-liquid-right .widgets-holder-wrap:nth-child(11) {
+	padding-bottom:30px;
+}
+.orphan-sidebar {
+	display:none;
+}
+a.pp-widget-help {
+	float:right;
+	margin:0 0 2px 4px;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	background:url(http://prophoto.s3.amazonaws.com/img/help.png) no-repeat top right;
+	text-decoration:none;
+}
+
+.sidebar-description .description {
+	font-size: 11px;
+	line-height:1.3em;
+}
+
+/* twitter SLIDER */
+div.widgets-holder-wrap {
+	margin-bottom:12px;
+}
+.pp-twitter-slider {
+	margin:0 auto;
+}
+.pp-twitter-slider .sliding .controls a {
+	display:block;
+}
+.pp-twitter-slider .not-sliding .controls a {
+	display:none;
+}
+.viewer {
+	border-bottom:1px dotted transparent;
+	border-right:1px dotted transparent;
+}
+.incrementer a {
+	padding-left:3px;
+	padding-top:2px;
+	cursor:pointer;
+}
+.incrementable-2 {
+	float:right;
+}
+.no-file .with-img {
+	display:none;
+}
+input.inline {
+	text-align:right;
+	font-weight:700;
+	padding:1px;
+}
+.twitter-slider-img-upload-msg {
+	display:none;
+	font-style:italic;
+}
+.pp-twitter-slider-form label {
+	font-weight:700;
+}
+.pp-twitter-slider-form p {
+	margin-top:20px !important;
+}
+.incrementable label {
+	margin-top:0;
+	font-weight:400;
+}
+label.tweet_width {
+	margin-right:5px;
+}
+p.double {
+	margin-top:10px !important;
+}
+
+
+.pp-widget .widget-title {
+	font-style:italic;
+	color:#232c95;
+	font-size:1.1em;
+}
+.widget-holder .pp-widget {
+	color:#232c95;
+}
+
+select.block {
+	display:block;
+}
+
+/* twitter INTERACTIVE badge */
+.p4-twitter-interactive-preview {
+	font-weight:bold;
+	float:left;
+	margin-left:0 !important;
+}
+.p4-twitter-interactive-preview p {
+	margin-bottom:5px !important;
+}
+.p4-twitter-interactive-form {
+	margin-left:310px !important;
+	width:200px;
+}
+.p4-twitter-interactive-preview-image {
+	width:290px;
+	height:350px;
+	margin-bottom:10px;
+	background-image:url(../../images/twitter-interactive-badge-preview.jpg);
+}
+.p4-twitter-interactive .smooth {
+	background-position:0 0;
+}
+.p4-twitter-interactive .velvetica {
+	background-position:-290px 0;
+}
+.p4-twitter-interactive .revo {
+	background-position:-580px 0;
+}
+
+/* twitter SIMPLE badge */
+div.p4-twitter-simple-form {
+	width:270px;
+	margin-left:200px !important;
+}
+.p4-twitter-simple p.p4-twitter-simple-preview {
+	float:left;
+	font-weight:bold;
+	text-indent:10px;
+	margin-left:0 !important;
+}
+
+/* P4 Text widget */
+.p4_tag_btn {
+	padding:0 3px !important;
+	height:18px !important;
+	margin:0 0 3px 3px;
+	background:#eee;
+	color:#000;
+	font-size:10px;
+	float:right;
+}
+.p4-text-textarea-holder {
+	margin-bottom:2px !important;
+}
+.p4-text .hidden {
+	display:none;
+}
+.p4-text-target {
+	font-size:1.1em;
+}
+.p4-text h3 {
+	margin-top:20px;
+}
+
+
+/* social media and custom icon */
+.p4-custom-icon-form p.column {
+	width:194px;
+}
+.p4-social-media-icons-form h3, .p4-custom-icon-form h3 {
+	margin-bottom:5px;
+	clear:both;
+}
+.p4-social-media-icons-form p.column {
+	width:123px;
+}
+p.column {
+	float:left;
+}
+p.first-column {
+	margin-right:15px !important;
+}
+.p4-social-media-icons-form p.note, .p4-custom-icon-form p.note {
+	line-height:1.1em;
+	font-size:11px;
+	font-style:italic;
+}
+.pp-widget-form-note {
+	font-size:11px;
+	font-style:italic;
+	line-height:1.1em;
+}
+.widget-inside .explain {
+	font-style:italic;
+}
+a.modal-video {
+	position:absolute;
+	top:8px;
+	right:10px;
+}
+#screen-meta-links {
+	margin-right:65px;
+}
+.wrap {
+	position:relative;
+}
+
+
+
+/* likebox widget */
+.pp-widget-form-column {
+	width:45%;
+	display:inline-block;
+}
+.pp-widget-form-left-column {
+	margin-right:5% !important;
+}
+.fb-like-box-preview {
+	float:left;
+}
+.fb-like-box-preview.dark {
+	background:#333;
+}
+.fb-like-box-form {
+	float:right;
+}
+.fb-like-box-form {
+	width:300px;
+}
+.show-header-option {
+	display:none;
+}
+.show-faces .show-header-option,
+.show-stream .show-header-option {
+	display:block;
+}
+.fb-like-box-form .number input {
+	display:block;
+	width:75px;
+}

@@ -1,0 +1,32 @@
+Mon, 25 Mar 2013 01:29:38 +0000  Array
+(
+    [message] => Unable to find static file style.css, using dynamic instead
+    [level] => tech
+    [stackTrace] => Array
+        (
+            [0] => {pp}/classes/staticFile.php:37 ppStaticFile::url('style.css');
+            [1] => {pp}/index.php:39 ppStaticFile::html('style.css');
+            [2] => {wp}/wp-includes/template-loader.php:47 include('{pp}/index.php');
+            [3] => {wp}/wp-blog-header.php:16 require_once('{wp}/wp-includes/template-loader.php');
+            [4] => {wp}/index.php:17 require('{wp}/wp-blog-header.php');
+        )
+
+)
+
+
+Mon, 25 Mar 2013 01:29:38 +0000  Array
+(
+    [message] => Unable to find static file script.js, using dynamic instead
+    [level] => tech
+    [stackTrace] => Array
+        (
+            [0] => {pp}/classes/staticFile.php:43 ppStaticFile::url('script.js');
+            [1] => {pp}/index.php:36 ppStaticFile::html('script.js');
+            [2] => {wp}/wp-includes/template-loader.php:47 include('{pp}/index.php');
+            [3] => {wp}/wp-blog-header.php:16 require_once('{wp}/wp-includes/template-loader.php');
+            [4] => {wp}/index.php:17 require('{wp}/wp-blog-header.php');
+        )
+
+)
+
+

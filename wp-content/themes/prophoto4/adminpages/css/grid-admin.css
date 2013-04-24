@@ -1,0 +1,245 @@
+html {
+	overflow:auto;
+}
+html body#grid_admin {
+	padding:0 !important;
+}
+.grid-admin {
+	padding:1em;
+}
+.grid-admin h1 {
+	margin: .4em 0 0 0;
+}
+body.widgets-php .grid-admin {
+	padding-top:0;
+}
+body.widgets-php .grid-admin h1 {
+	display:none;
+}
+.grid-title input.widefat {
+	width:350px;
+	display:block;
+}
+.grid-admin fieldset {
+	margin:0 0 1em 0;
+}
+.grid-admin label {
+	padding-right:0.5em;
+}
+.exclude_categories label {
+	display:block;
+}
+.label-for-excluded_categories {
+	margin-bottom:0.5em;
+}
+.exclude_categories label.checkbox {
+	margin-left:1em;
+}
+.grid-admin fieldset.grid_rows,
+.grid-admin fieldset.exclude_categories,
+.grid-admin fieldset.selected_articles,
+.grid-admin fieldset.galleries,
+.grid-admin fieldset.gallery-display-type {
+	display:none;
+}
+.empty fieldset.grid_rows,
+.recent_posts fieldset.grid_rows,
+.categories fieldset.exclude_categories,
+.selected_articles fieldset.selected_articles,
+.galleries fieldset.galleries,
+.galleries fieldset.gallery-display-type {
+	display:block;
+}
+.grid-admin .selected_articles {
+	margin-top:18px;
+}
+.available h2,
+.in-grid h2 {
+	font-size:1.1em;
+	margin:0;
+	padding:4px 7px;
+	color:#444;
+	background:#DDD;
+	border:1px solid #BBB;
+	border-bottom-width:0;
+	font-weight:normal;
+	line-height:1.15em;
+	text-shadow:none;
+}
+.grid-admin .filter-by {
+	margin:5px 0 7px 10px;
+	font-style:italic;
+}
+.grid-admin .available,
+.grid-admin .in-grid {
+	display:none;
+	float:left;
+	width:299px;
+	margin-top:5px;
+	margin-right:15px;
+}
+.grid-admin .in-grid {
+	margin-right:0;
+}
+.grid-admin .grid-selectables {
+	height:420px;
+	width:297px;
+	overflow:auto;
+	border:1px solid #BBB;
+	border-top-width:0;
+	margin-right:20px;
+	padding-top:5px;
+	overflow-y:scroll;
+}
+@media screen and (min-height:520px) {
+	.grid-admin .grid-selectables {
+		height:200px;
+	}
+}
+@media screen and (min-height:620px) {
+	.grid-admin .grid-selectables {
+		height:300px;
+	}
+}
+@media screen and (min-height:720px) {
+	.grid-admin .grid-selectables {
+		height:400px;
+	}
+}
+@media screen and (min-height:820px) {
+	.grid-admin .grid-selectables {
+		height:500px;
+	}
+}
+@media screen and (min-height:920px) {
+	.grid-admin .grid-selectables {
+		height:600px;
+	}
+}
+.grid-admin .grid-selectable {
+	display:none;
+	cursor:move;
+	border:1px solid #bbb;
+	background:#efefef;
+	width:260px;
+	height:40px;
+	border-radius:2px;
+	position:relative;
+	margin:5px 10px 5px;
+}
+.in-grid .grid-selectable {
+	display:block;
+}
+.grid-admin .recent {
+	display:block;
+}
+.grid-admin .grid-selectable h4 {
+	font-size:12px;
+	padding-top:5px;
+	margin:0 0 2px;
+	line-height:1.2em;
+}
+.grid-admin .grid-selectable h4,
+.grid-admin .grid-selectable .meta {
+	padding-left:47px;
+	white-space:nowrap;
+	width:210px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.grid-admin .grid-selectable img {
+	border-right:1px solid #BBB;
+	width: 40px;
+	height:40px;
+	margin:0 7px 0 0;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.grid-admin .grid-selectable .meta {
+	margin:0;
+	font-size:11px;
+	font-style:italic;
+	line-height:1.2em;
+}
+.grid-admin .categories {
+	margin-left:3px;
+}
+.grid-admin .filter-search {
+	display:none;
+	margin-top:3px;
+}
+.grid-admin .filter-search input {
+	padding:1px;
+	width:149px;
+}
+.grid-admin .delete {
+	display:none;
+	cursor:pointer;
+	opacity:0.7;
+	position:absolute;
+	top:0;
+	right:0;
+	font-size:16px;
+	text-transform:uppercase;
+	padding:0px 4px 3px 3px;
+	line-height:1em;
+	text-align:center;
+	font-weight:400;
+	color:red;
+}
+.in-grid .grid-selectable:hover .delete {
+	display:block;
+}
+.grid-admin p.no-selected-selectables,
+.submit-error p.cant-submit-empty-msg {
+	margin:30px 15px;
+	text-align:center;
+	font-size:16px;
+	font-family:Georgia,Times,serif;
+	font-style:italic;
+}
+.dragging-selectable p.no-selected-selectables,
+.submit-error p.no-selected-selectables {
+	display:none;
+}
+.dragging-selectable .in-grid .grid-selectables,
+.dragging-selectable .in-grid h2 {
+	border-color:green;
+}
+.dragging-selectable .available .grid-selectable {
+	opacity:0.5;
+}
+.grid-admin p {
+	margin:11px 40px 18px 0;
+	font-style:italic;
+	font-family:Georgia,Times,serif;
+	font-size:13.5px;
+}
+.grid-admin #close-popup {
+	margin-left:5px;
+}
+.grid-admin fieldset {
+	padding-left:1.25em;
+}
+.grid-admin fieldset.selected_articles,
+.grid-admin fieldset.galleries {
+	padding-left:0;
+}
+.grid-admin p.cant-submit-empty-msg {
+	display:none;
+}
+.submit-error p.cant-submit-empty-msg {
+	display:block;
+	color:red;
+}
+.grid-admin .submit-error .in-grid .grid-selectables,
+.grid-admin .submit-error .in-grid h2 {
+	border-color:red;
+}
+.grid-admin .loading-selectables {
+	padding-left:40px !important;
+	background:url(http://prophoto.s3.amazonaws.com/img/ajaxLoadingSpinner.gif) no-repeat top left;
+	line-height:33px;
+	color:#000;
+}

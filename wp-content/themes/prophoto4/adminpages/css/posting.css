@@ -1,0 +1,86 @@
+/* all of the "#media-buttons" crap is 3.2 or earlier legacy and should be removed at some point */
+#wp-content-media-buttons:after,
+#media-buttons:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+*:first-child+html #wp-content-media-buttons,
+*:first-child+html #media-buttons { /* for IE7 */
+	min-height: 1px;
+}
+#wp-content-editor-tools {
+	padding-left:0;
+}
+.wp-media-buttons,
+#media-buttons {
+	padding-top:5px !important;
+}
+#media-buttons {
+	padding-left:0;
+}
+#media-buttons #content-add_media {
+	text-decoration:none;
+	color:#333;
+}
+#media-buttons a,
+.wp-media-buttons a {
+	float:left;
+}
+#content-add_media {
+	float:left;
+	margin-top:3px;
+}
+.pp-admin-dropdown-wrap {
+	margin:0 10px 0 9px;
+}
+.pp-admin-dropdown li.current {
+	font-size:12px;
+}
+.pp-admin-dropdown li a,
+#media-buttons .pp-admin-dropdown li a {
+	float:none;
+	color:#ccc;
+}
+#pp-admin-dropdown-new-gallery .icon {
+	background-position:-304px 0;
+	background-repeat:no-repeat;
+	
+}
+#pp-admin-dropdown-galleries .icon {
+	background-position:-203px 0;
+}
+#pp-admin-dropdown-new-grid .icon {
+	background-position:-224px 0;
+}
+.pp-admin-dropdown li.current {
+	border-radius:4px;
+	padding:2px 19px 4px 6px;
+	font-size:14px;
+
+}
+.pp-admin-dropdown li.current .arrow {
+	background:url(../../../../../wp-admin/images/arrows.png) -3px -3px;
+	position:absolute;
+	display:block;
+	width:9px;
+	height:9px;
+	top:4px;
+	right:6px;
+}
+.pp-admin-dropdown-wrap:hover li.current .arrow {
+	background-position:-3px -37px;
+}
+.pp-admin-dropdown li .icon {
+	background-image:url(http://prophoto.s3.amazonaws.com/img/customize-icons-small-sprite-v2.png);
+}
+.modal-video-large {
+	position: absolute;
+	top: 9px;
+	right: 20px;
+}
+#screen-meta-links {
+margin-right: 61px;
+}
